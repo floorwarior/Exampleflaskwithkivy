@@ -1,0 +1,4 @@
+#PythonService = autoclass("org.kivy.android.PythonService")
+#PythonService.mService.startForeground(True)
+#PythonService.mService.setAutoRestartService(True)
+
