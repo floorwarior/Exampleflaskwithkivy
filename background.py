@@ -3,7 +3,7 @@ from flask import Flask
 from flask import render_template
 
 PythonService = autoclass("org.kivy.android.PythonService")
-PythonService.mService.setAutoRestartService(True)
+PythonService.mService.setAutoRestartService(True) 
 
 app = Flask(__name__)
 
