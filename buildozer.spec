@@ -47,7 +47,7 @@ requirements = python3,kivy,plyer, pyjnius,flask==2.2.2, werkzeug==2.2.2
 #presplash.filename = %(source.dir)s/data/presplash.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/floorcommunityedition.ico
+#icon.filename = %(source.dir)s/[redacted].ico
 
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse or landscape-reverse
