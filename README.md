@@ -1,2 +1,2 @@
 # Exampleflaskwithkivy
-flask as backed html css and js as front, kivy delivers the webview
+flask as backend, html, css and js on the front, kivy delivers the webview
