@@ -1,22 +1,21 @@
 from kivy.app import App
 from kivy.uix.screenmanager import Screen
-from kivy.uix.gridlayout import GridLayout
 from kivy.uix.relativelayout import RelativeLayout
-from kivy.uix.button import Button
+
 
 
 from kivy.uix.label import Label
 
-from kivy.clock import Clock
+
 
 from kivy.utils import platform
 #import webbrowser
-from urllib.parse import quote as url_quote
+
 
 #import multiprocessing
 #import background
 
-
+from kivy.clock import Clock
 
 class FloorMobileApp(App):
     
