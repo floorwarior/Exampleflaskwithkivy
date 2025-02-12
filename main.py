@@ -3,6 +3,13 @@ from kivy.uix.screenmanager import Screen
 from kivy.uix.relativelayout import RelativeLayout
 
 
+## references:
+##
+##
+## https://github.com/TirrouOussama/kivyserviceforeground/
+##
+##
+
 
 from kivy.uix.label import Label
 
@@ -44,16 +51,45 @@ class FloorMobileApp(App):
     def on_start(self):
         Clock.schedule_once(lambda x: self.view.open(),4)
 
-    def build(self):
+
+
+    def get_permit(self):
         if platform == 'android':
-            from jnius import autoclass
-            service = autoclass('org.test.app.ServiceFlaskserver')
-            mActivity = autoclass('org.kivy.android.PythonActivity').mActivity
-            argument = ''
-            service.start(mActivity, argument)
+            from android.permissions import Permission, request_permissions 
+
+            def callback(permissions, results):
+                granted_permissions = [perm for perm, res in zip(permissions, results) if res]
+                denied_permissions = [perm for perm, res in zip(permissions, results) if not res]
+
+                if denied_permissions:
+                    print('Denied permissions:', denied_permissions)
+
+                elif granted_permissions:
+                    print('Got all permissions')
+                else:
+                    print('No permissions were granted or denied')
+
+            requested_permissions = [
+                Permission.INTERNET,
+                Permission.FOREGROUND_SERVICE,
+                Permission.READ_EXTERNAL_STORAGE,
+                Permission.SYSTEM_ALERT_WINDOW
+            ]
+            request_permissions(requested_permissions, callback)
+
 
 
     
+
+    def build(self):
+        if platform == 'android':
+            self.get_permit()
+            from jnius import autoclass
+            from android import mActivity
+            context = mActivity.getApplicationContext()
+            SERVICE_NAME = "org.test.app.ServiceFlaskserver" #this must always contain Service as leading part of the service senond part need to be Capitial!            
+            self.service_target = autoclass(SERVICE_NAME)
+            self.service_target.start(mActivity,"icon","This is title","this is message") # the service now runs as foreground and it will we alive as long as the user doesnt kill the app or dismisses the notification
 
         return self.screen
 
