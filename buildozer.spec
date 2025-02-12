@@ -37,7 +37,7 @@ version = 3.4
 
 # (list) Application s
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,plyer, pyjnius,flask==2.2.2, werkzeug==2.2.2
+requirements = python3,kivy,plyer, pyjnius,flask==2.2.2, werkzeug==2.2.2, https://github.com/kvdroid/Kvdroid/archive/refs/heads/master.zip
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -98,8 +98,6 @@ fullscreen = 0
 # (See https://python-for-android.readthedocs.io/en/latest/buildoptions/#build-options-1 for all the supported syntaxes and properties)
 #android.permissions = android.permission.INTERNET, (name=android.permission.WRITE_EXTERNAL_STORAGE;maxSdkVersion=18)
 android.permissions = android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_EXTERNAL_STORAGE,android.permission.SYSTEM_ALERT_WINDOW,android.permission.POST_NOTIFICATIONS,android.permission.BACKGROUND_SERVICE,android.permission.FOREGROUND_SERVICE,android.permission.WAKE_LOCK, android.permission.INTERNET
-
-
 
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host
