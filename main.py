@@ -100,7 +100,7 @@ class FloorMobileApp(App):
             context = mActivity.getApplicationContext()
             SERVICE_NAME = "org.test.app.ServiceFlaskserver" #this must always contain Service as leading part of the service sencond part need to be Capitial!            
             self.service_target = autoclass(SERVICE_NAME)
-            self.service_target.start(mActivity,"icon","This is title","this is message") # the service now runs as foreground and it will be alive as long as the user doesnt kill the app or dismisses the notification
+            self.service_target.start(mActivity,"icon","This is title","this is message","") # the service now runs as foreground and it will be alive as long as the user doesnt kill the app or dismisses the notification
 
         return self.screen
 
