@@ -51,9 +51,9 @@ class FloorMobileApp(App):
     def on_start(self):
         # this might or might not be a good aproach
         import time
+        import requests
         no_server = True
         while no_server:
-            import requests
             x = requests.get('http://localhost:5000/')
             print(x.status_code)
             if x.status_code == "200":
@@ -98,9 +98,9 @@ class FloorMobileApp(App):
             from jnius import autoclass
             from android import mActivity
             context = mActivity.getApplicationContext()
-            SERVICE_NAME = "org.test.app.ServiceFlaskserver" #this must always contain Service as leading part of the service senond part need to be Capitial!            
+            SERVICE_NAME = "org.test.app.ServiceFlaskserver" #this must always contain Service as leading part of the service sencond part need to be Capitial!            
             self.service_target = autoclass(SERVICE_NAME)
-            self.service_target.start(mActivity,"icon","This is title","this is message") # the service now runs as foreground and it will we alive as long as the user doesnt kill the app or dismisses the notification
+            self.service_target.start(mActivity,"icon","This is title","this is message") # the service now runs as foreground and it will be alive as long as the user doesnt kill the app or dismisses the notification
 
         return self.screen
 
