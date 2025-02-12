@@ -43,10 +43,6 @@ class FloorMobileApp(App):
 
     def on_start(self):
         Clock.schedule_once(lambda x: self.view.open(),4)
-        """        import threading
-                from background import app, startapp
-                threading.Thread(target=startapp).start()
-"""
 
     def build(self):
         if platform == 'android':
