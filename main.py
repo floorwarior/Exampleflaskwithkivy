@@ -50,17 +50,8 @@ class FloorMobileApp(App):
 
     def on_start(self):
         # this might or might not be a good aproach
-        import time
-        import requests
-        no_server = True
-        while no_server:
-            x = requests.get('http://localhost:5000/')
-            print(x.status_code)
-            if x.status_code == "200":
-                no_server = False
-            time.sleep(1)
-        self.view.open()
-        #Clock.schedule_once(lambda x: self.view.open(),4) # 4 seconds seems to be not enough sometimes for the server to stand up
+        
+        Clock.schedule_once(lambda x: self.view.open(),5) # 4 seconds seems to be not enough sometimes for the server to stand up
 
 
 
