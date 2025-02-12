@@ -55,7 +55,7 @@ orientation = portrait
 
 # (list) List of service to declare
 #services = NAME:ENTRYPOINT_TO_PY,NAME2:ENTRYPOINT2_TO_PY
-services = Flaskserver:background.py
+services = Flaskserver:background.py:foreground
 
 #
 # OSX Specific
@@ -97,7 +97,7 @@ fullscreen = 0
 # (list) Permissions
 # (See https://python-for-android.readthedocs.io/en/latest/buildoptions/#build-options-1 for all the supported syntaxes and properties)
 #android.permissions = android.permission.INTERNET, (name=android.permission.WRITE_EXTERNAL_STORAGE;maxSdkVersion=18)
-android.permissions = android.permission.POST_NOTIFICATIONS,android.permission.BACKGROUND_SERVICE,android.permission.FOREGROUND_SERVICE,android.permission.WAKE_LOCK, android.permission.INTERNET
+android.permissions = android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_EXTERNAL_STORAGE,android.permission.SYSTEM_ALERT_WINDOW,android.permission.POST_NOTIFICATIONS,android.permission.BACKGROUND_SERVICE,android.permission.FOREGROUND_SERVICE,android.permission.WAKE_LOCK, android.permission.INTERNET
 
 
 
