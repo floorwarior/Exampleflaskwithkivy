@@ -38,16 +38,6 @@ class FloorMobileApp(App):
                 enable_downloads=False,
                 enable_zoom=False
             )
-        elif platform == "windows" or platform == "linux":
-            class Fire_fox():
-
-                def open():
-                    import webbrowser
-                    webbrowser.open("http://localhost:5000/")
-
-            self.view = Fire_fox()
-       
-        # adding the start screen
 
 
 
