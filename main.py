@@ -49,7 +49,7 @@ class FloorMobileApp(App):
 
 
     def on_start(self):
-        Clock.schedule_once(lambda x: self.view.open(),4)
+        Clock.schedule_once(lambda x: self.view.open(),4) # 4 seconds seems to be not enough sometimes for the server to stand up
 
 
 
