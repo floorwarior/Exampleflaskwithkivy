@@ -1,3 +1,4 @@
+# this file ˇˇˇ is refrenced from here: https://github.com/Android-for-Python/Webview-Example/blob/main/webview.py
 # Android **only** HTML viewer, always full screen.
 #
 # Back button or gesture has the usual browser behavior, except for the final
@@ -101,7 +102,7 @@ class WebView(ModalView):
         webview.getSettings().setJavaScriptEnabled(self.enable_javascript)
         webview.getSettings().setBuiltInZoomControls(self.enable_zoom)
         webview.getSettings().setDisplayZoomControls(False)
-        webview.getSettings().setDomStorageEnabled(True)
+        webview.getSettings().setDomStorageEnabled(True) # if you set this to false cookies and Localstorage will not work on websites!
         webview.getSettings().setAllowFileAccess(True) #default False api>29
         layout = LinearLayout(mActivity)
         layout.setOrientation(LinearLayout.VERTICAL)
