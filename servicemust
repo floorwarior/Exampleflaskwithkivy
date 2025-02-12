@@ -1,4 +1,0 @@
-#PythonService = autoclass("org.kivy.android.PythonService")
-
-#PythonService.mService.setAutoRestartService(True)
-
