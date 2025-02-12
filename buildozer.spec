@@ -37,7 +37,7 @@ version = 3.4
 
 # (list) Application s
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,plyer, pyjnius,flask==2.2.2, werkzeug==2.2.2, https://github.com/kvdroid/Kvdroid/archive/refs/heads/master.zip,requests
+requirements = python3,kivy,plyer, pyjnius,flask==2.2.2, werkzeug==2.2.2, https://github.com/kvdroid/Kvdroid/archive/refs/heads/master.zip ,requests
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
