@@ -241,10 +241,7 @@ android.api = 27
 
 # (str) XML file to include as an intent filters in <activity> tag
 #android.manifest.intent_filters =
-android.manifest_xml =     
-    <manifest>
-        <application android:usesCleartextTraffic="true" />
-    </manifest>
+
 
 # (list) Copy these files to src/main/res/xml/ (used for example with intent-filters)
 #android.res_xml = PATH_TO_FILE,
