@@ -14,7 +14,7 @@ from kivy.uix.relativelayout import RelativeLayout
 from kivy.uix.label import Label
 
 
-
+import pingserver
 from kivy.utils import platform
 #import webbrowser
 
@@ -50,8 +50,8 @@ class FloorMobileApp(App):
 
     def on_start(self):
         # this might or might not be a good aproach
-        
-        Clock.schedule_once(lambda x: self.view.open(),5) # 4 seconds seems to be not enough sometimes for the server to stand up
+        pingserver.wait_until_available()
+        self.view.open() # 4 seconds seems to be not enough sometimes for the server to stand up
 
 
 
