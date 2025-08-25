@@ -1,0 +1,128 @@
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/obj/local/armeabi-v7a/objs-debug/freetype/./src/pshinter/pshinter.o: \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshinter.c \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshalgo.c \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/ftobjs.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftrender.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftmodapi.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/freetype.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/ft2build.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/config/ftheader.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/config/ftconfig.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/config/ftoption.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/config/ftstdlib.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/config/integer-types.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/config/public-macros.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/config/mac-support.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/fttypes.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftsystem.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftimage.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/fterrors.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftmoderr.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/fterrdef.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftglyph.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftsizes.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftlcdfil.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftparams.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/ftmemory.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/compiler-macros.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/ftgloadr.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/ftdrv.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/autohint.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/ftserv.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/ftcalc.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftincrem.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/ftdebug.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshalgo.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshrec.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/pshints.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/t1tables.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshglob.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshnterr.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshglob.c \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshmod.c \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshmod.h \
+  /home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshrec.c
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshalgo.c:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/ftobjs.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftrender.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftmodapi.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/freetype.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/ft2build.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/config/ftheader.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/config/ftconfig.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/config/ftoption.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/config/ftstdlib.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/config/integer-types.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/config/public-macros.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/config/mac-support.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/fttypes.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftsystem.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftimage.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/fterrors.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftmoderr.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/fterrdef.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftglyph.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftsizes.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftlcdfil.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftparams.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/ftmemory.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/compiler-macros.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/ftgloadr.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/ftdrv.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/autohint.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/ftserv.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/ftcalc.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/ftincrem.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/ftdebug.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshalgo.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshrec.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/internal/pshints.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/include/freetype/t1tables.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshglob.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshnterr.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshglob.c:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshmod.c:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshmod.h:
+
+/home/ishallwooopyoass/Desktop/exampleflaskwithkivyv2/Exampleflaskwithkivy/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype/./src/pshinter/pshrec.c:

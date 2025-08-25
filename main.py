@@ -40,7 +40,7 @@ class FloorMobileApp(App):
         if platform == "android":
             from webviewforflaskapp import WebView
             self.view = WebView(
-                url="http://localhost:5000/",
+                url="http://localhost:5003/",
                 enable_javascript=True,
                 enable_downloads=False,
                 enable_zoom=False

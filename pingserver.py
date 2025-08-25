@@ -15,7 +15,7 @@ def waitforserver():
     noserver = True
     while noserver:
         print("not connected.")
-        noserver = not is_port_open("localhost",5000)
+        noserver = not is_port_open("localhost",5003)
         time.sleep(1)
 
     print("connected!")
