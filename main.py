@@ -54,8 +54,7 @@ class Exampleflaskwihkivy(App):
 
     def on_start(self):
         # this might or might not be a good aproach
-        pingserver.waitforserver()
-        self.view.open() # 4 seconds seems to be not enough sometimes for the server to stand up
+        self.try_connect()
 
 
 
