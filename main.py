@@ -24,28 +24,32 @@ from kivy.utils import platform
 
 from kivy.clock import Clock
 
-class FloorMobileApp(App):
+class Exampleflaskwihkivy(App):
     
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.screen = Screen()
         self.rel = RelativeLayout()
         self.l = Label(text="Loading . . ")
-
-
         self.screen.add_widget(self.rel)
         self.rel.add_widget(self.l)
 
 
-        if platform == "android":
-            from webviewforflaskapp import WebView
-            self.view = WebView(
-                url="http://localhost:5003/",
-                enable_javascript=True,
-                enable_downloads=False,
-                enable_zoom=False
-            )
 
+    def try_connect(self,*args,**kwargs):
+        from pingserver import is_port_open
+        if is_port_open(host="localhost",port=5000):
+            if platform == "android":   
+                from webviewforflaskapp import WebView
+                self.view = WebView(
+                    url="http://localhost:5000/",
+                    enable_javascript=True,
+                    enable_downloads=False,
+                    enable_zoom=False
+                )
+                self.view.open()
+        else:
+            Clock.schedule_once(self.try_connect,1)
 
 
     def on_start(self):
@@ -88,7 +92,7 @@ class FloorMobileApp(App):
             self.get_permit()
             from jnius import autoclass
             from android import mActivity
-            context = mActivity.getApplicationContext()
+            #context = mActivity.getApplicationContext()
             SERVICE_NAME = "org.test.app.ServiceFlaskserver" #this must always contain Service as leading part of the service sencond part need to be Capitial!            
             self.service_target = autoclass(SERVICE_NAME)
             self.service_target.start(mActivity,"icon","This is title","this is message","") # the service now runs as foreground and it will be alive as long as the user doesnt kill the app or dismisses the notification
@@ -96,9 +100,6 @@ class FloorMobileApp(App):
         return self.screen
 
 if __name__ == "__main__":
-    
-
     #flask_thread = threading.Thread(target=background.startapp, daemon=True)
     #flask_thread.start()
-
-    FloorMobileApp().run()
+    Exampleflaskwihkivy().run()
