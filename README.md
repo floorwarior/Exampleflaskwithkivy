@@ -4,7 +4,7 @@ Don't change in buildozer.spec:
 ## Risky to change:
 - api 27
 - webview -> custom tabs
-- Your can try to make custom tabs work instead of webview, but this requires androidx to be enabled and every single build where i tried that, fails with some kind of java.heap error, i tried increasing the size of the heap but it did not work and i kind of gave up on that
+- Your can try to make custom tabs work instead of webview, but this requires androidx to be enabled and every single build where i tried it failed.
 - werkzueg and flask version this might break the code.
 
 ## How to use?
