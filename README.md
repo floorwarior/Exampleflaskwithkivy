@@ -15,6 +15,7 @@ Don't change in buildozer.spec:
 ## How does it work?
 - we start a background process that runs the flask server
 - kivy opens a webview to show the server page ( you can experiement with androidx and try to use custom tabs: from kvdroid.tools.webkit import launch_url, since webview is missing some features of a normal browser for example TTS will not work)
+
 ## Tips:
 some systems might kill your background/foreground process for example on Huawei phones you need to first allow the notification that shows your foreground, for the app. in the application settings.
 then you also have to set in the launch manager manual instead of auto, so that the resource manager does not kill your app and its process
