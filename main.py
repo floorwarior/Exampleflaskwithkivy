@@ -40,14 +40,9 @@ class Exampleflaskwihkivy(App):
         from pingserver import is_port_open
         if is_port_open(host="localhost",port=5000):
             if platform == "android":   
-                from webviewforflaskapp import WebView
-                self.view = WebView(
-                    url="http://localhost:5000/",
-                    enable_javascript=True,
-                    enable_downloads=False,
-                    enable_zoom=False
-                )
-                self.view.open()
+                from kvdroid.tools.webkit import launch_url
+                url="http://localhost:5000/"
+                launch_url(url) 
         else:
             Clock.schedule_once(self.try_connect,1)
 
