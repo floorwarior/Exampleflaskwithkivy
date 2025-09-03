@@ -4,7 +4,7 @@ Don't change in buildozer.spec:
 ## Risky to change:
 - api 27
 - webview -> custom tabs
-- Your can try to make (custom tabs)[https://github.com/floorwarior/Exampleflaskwithkivy/tree/customtab-version] work instead of webview
+- Your can try to make [custom tabs](https://github.com/floorwarior/Exampleflaskwithkivy/tree/customtab-version) work instead of webview
 - werkzueg and flask version, this might break the code. 
 
 ## How to use?
@@ -14,7 +14,7 @@ Don't change in buildozer.spec:
 
 ## How does it work?
 - we start a background process that runs the flask server
-- kivy opens a webview to show the server page ( to have all the browser functionality check out (customtabs)[https://github.com/floorwarior/Exampleflaskwithkivy/tree/customtab-version] since webview is missing some features of a normal browser, for example TTS will not work)
+- kivy opens a webview to show the server page ( to have all the browser functionality check out [customtabs](https://github.com/floorwarior/Exampleflaskwithkivy/tree/customtab-version) since webview is missing some features of a normal browser, for example TTS will not work)
 
 ## Tips:
 some systems might kill your background/foreground process for example on Huawei phones you need to first allow the notification that shows your foreground, for the app. in the application settings.
