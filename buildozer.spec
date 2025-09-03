@@ -153,7 +153,7 @@ android.api = 31
 
 # (str) Extra xml to write directly inside the <manifest><application> tag of AndroidManifest.xml
 # use that parameter to provide a filename from where to load your custom XML arguments:
-android.extra_manifest_application_arguments = network_config.xml
+#android.extra_manifest_application_arguments = network_config.xml
 
 # (str) Full name including package path of the Java class that implements Python Service
 # use that parameter to set custom Java class which extends PythonService
@@ -203,12 +203,12 @@ android.extra_manifest_application_arguments = network_config.xml
 #android.add_resources =  data/legal_icons:drawable
 
 # (list) Gradle dependencies to add
-#android.gradle_dependencies =
+android.gradle_dependencies = androidx.appcompat:appcompat:1.4.2 ,androidx.browser:browser:1.4.0
 
 # (bool) Enable AndroidX support. Enable when 'android.gradle_dependencies'
 # contains an 'androidx' package, or any package from Kotlin source.
 #android.enable_androidx requires android.api >= 28
-android.enable_androidx = True
+android.enable_androidx = True 
 
 # (list) add java compile options
 # this can for example be necessary when importing certain java libraries using the 'android.gradle_dependencies' option
