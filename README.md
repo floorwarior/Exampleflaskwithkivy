@@ -4,9 +4,7 @@
 
 Don't change in buildozer.spec:
 ## Risky to change:
-- api 27
-- webview -> custom tabs
-- This is the version that tries custom tabs instead of webview.
+- api 31
 - werkzueg and flask version, this might break the code.
 
 ## How to use?
