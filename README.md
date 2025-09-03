@@ -1,5 +1,7 @@
 # Exampleflaskwithkivy
 
+***This instruction does not work yet correctly***
+
 Don't change in buildozer.spec:
 ## Risky to change:
 - api 27
